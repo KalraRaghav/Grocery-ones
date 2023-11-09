@@ -1,0 +1,58 @@
+body{
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#9c27b0,rgb(0, 255, 247));
+}
+.box{
+    background-color: aliceblue;
+    padding: 40px;
+    box-shadow:40px;
+    min-width: 400px;
+}
+.box h1{
+    font-weight: 500a;
+}
+.box button{
+    padding: 5px;
+    border-radius: 6px;
+}
+.box input{
+    padding: 5px;
+    border-radius: 6px; ;
+}
+.container ol{
+    padding: 20px;
+    background-color: aliceblue;
+    min-height: 400px;
+    background-size: 50px 50px 50px;
+}
+.container ol li{
+  
+    font-size:20px;
+    margin-left: 10px;
+}
+.container ol li .remove{
+    position: absolute;
+    width:25px;
+    height:25px;
+    background-color: red;
+    top: 300px;
+    right:550;
+}
+/* .container ol li .rmvbtn{
+    position: absolute;
+    width:25px;
+    height:25px;
+    background-color: red;
+    top: 300px;
+    right:550;
+    background-repeat:no-repeat;
+
+} */
+/* .container ol li .remove rmvbtn{
+    background-color: red;
+    padding: 5px; /* Add padding for better visibility */
+    /* border-radius: 3px; /* Add border-radius for rounded corners */
+   
